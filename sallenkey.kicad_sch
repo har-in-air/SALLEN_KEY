@@ -2317,6 +2317,37 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "x1"
+		(exclude_from_sim no)
+		(at 142.494 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15810a1f-70a8-4d8c-bca8-cfd794d8658e")
+	)
+	(text "x2"
+		(exclude_from_sim no)
+		(at 142.494 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a6ea78c-425f-4151-92cf-e185f3dd70e4")
+	)
+	(text "For 2.1 amplifier filter configuration\nU2B : \n	Populate R6,R10\n	Do not populate R12,R18,C14,C16,C19\nConnect jumper wire across x1,x2\nSummed low output from L_Lo\n"
+		(exclude_from_sim no)
+		(at 180.848 124.968 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba9d1f8f-4c32-449e-baa9-04cb3668c45b")
+	)
 	(junction
 		(at 101.6 43.18)
 		(diameter 0)
